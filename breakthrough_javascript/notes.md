@@ -104,3 +104,5 @@ var greetMorning = greet.bind(mike);
 greetMorning("Good Morning　", "!!"); // Good Morning　Mike!!
 
 ```
+
+## Chapter02
