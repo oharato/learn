@@ -26,7 +26,7 @@ counter1();
     - onで監視者を登録するときに、名前と関数を登録する
     - 通知者は、イベント名を引数として、Observerインスタンスのtrigerメソッドを実行する
 
-```
+```JavaScript
 function Observer() {
   this.listeners = {};
 }
@@ -59,7 +59,7 @@ observer.on("morning", greet);
 
 - 通知者がイベントを通知する
 
-```
+```JavaScript
 Observer.prototype.trigger = function(event) {
   var ref = this.listeners[event];
   for (var i = 0, len = ref.length; i < len; i++) {
@@ -77,7 +77,7 @@ observer.trigger("morning"); //Good morning
 ## this
 - call(object, arg1, arg2, ...), apply(object, Array) 関数をすぐに実行
 
-```
+```JavaScript
 function Human(name) {
   this.name = name;
 }
@@ -91,7 +91,7 @@ greet.call(mike, "Hello　", "!!"); // Hello　Mike!!
 
 - bind(object, arg1, arg2, ...) 呼びだされた時に新しい関数を生成し、値を束縛。
 
-```
+```JavaScript
 function Human(name) {
   this.name = name;
 }
