@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>モーダルウィンドウ</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="container">
+  <ul id="modal-thumb">
+    <li><a href="photo-01.jpg" data-index="0"><img src="photo-01.jpg"></a></li>
+    <li><a href="photo-02.jpg" data-index="1"><img src="photo-02.jpg"></a></li>
+    <li><a href="photo-03.jpg" data-index="2"><img src="photo-03.jpg"></a></li>
+  </ul>
+</div>
+<div id="modal">
+  <div id="modal-container">
+    <div id="modal-contents"></div>
+    <div id="modal-close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></div>
+    <div id="modal-prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></div>
+    <div id="modal-next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></div>
+  </div>
+</div>
+<div id="modal-overlay"></div>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
