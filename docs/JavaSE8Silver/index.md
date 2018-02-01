@@ -889,7 +889,7 @@ date.plusYears(3);
 - java.util.function パッケージとして提供
 
 |インタフェース名|抽象メソッド|概要|
-|--|--|--|
+|---|---|---|
 |Function<T,R>|R apply(T t)|引数Tを受取り、Rを返す|
 |Consumer<T>|void accept(T t)|引数Tを受取り、返り値なし|
 |Predicate<T>|boolean test(T t)|引数Tを受取り、booleanを返す|
@@ -911,7 +911,7 @@ date.plusYears(3);
         - RuntimeException以外のException(checked例外・例外処理必須、DBやファイルなどのJava実行環境以外の環境起因)
 
 |カテゴリ|クラス名|説明|
-|--|--|--|--|
+|---|---|---|---|
 |Errorのサブクラス|AssertionError||
 ||OutOfMemoryError||
 ||StackOverflowError|再帰多すぎ|
