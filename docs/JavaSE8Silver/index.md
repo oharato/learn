@@ -911,7 +911,7 @@ date.plusYears(3);
         - RuntimeException以外のException(checked例外・例外処理必須、DBやファイルなどのJava実行環境以外の環境起因)
 
 |カテゴリ|クラス名|説明|
-|---|---|---|---|
+|---|---|---|
 |Errorのサブクラス|AssertionError||
 ||OutOfMemoryError||
 ||StackOverflowError|再帰多すぎ|
