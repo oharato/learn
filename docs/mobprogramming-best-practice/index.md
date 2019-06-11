@@ -1,9 +1,9 @@
 # モブプログラミング・ベストプラクティス
 
 - モブプログラミング・ベストプラクティス ソフトウェアの品質と生産性をチームで高める｜日経BPブックナビ【公式サイト】 : <https://www.nikkeibp.co.jp/atclpubmkt/book/19/P89640/>
-- 世界中の人々がモビングのメリットを認識 https://markpearlcoza.github.io/Talk_PeopleMobbing/
-  - https://mobprogramming.org/
-- 原著 https://pragprog.com/book/mpmob
+- 世界中の人々がモビングのメリットを認識 <https://markpearlcoza.github.io/Talk_PeopleMobbing/>
+  - <https://mobprogramming.org/>
+- 原著 <https://pragprog.com/book/mpmob>
 
 - 具体的な内容として下記の章を読むと手っ取り早い
   - 1. なぜモブプロ？
@@ -59,9 +59,9 @@
       3. 行番号の表示をオン
 6. タイマーを用意
    1. 全員が見られるようなタイマー（ディスプレイに表示）
-      1. https://agility.jahed.dev/timer.html
+      1. <https://agility.jahed.dev/timer.html>
          1. webアプリ。見やすくて良い
-      2. https://github.com/pluralsight/mob-timer
+      2. <https://github.com/pluralsight/mob-timer>
          1. electron製、ビルド面倒
 
 
@@ -75,15 +75,15 @@
 ### お膳立て
 
 - モブプログラミングのコンセプトを説明する
-  - https://markpearlcoza.github.io/MobProgrammingIntroduction/
+  - <https://markpearlcoza.github.io/MobProgrammingIntroduction/>
     - 10枚位の英語のざっくり説明スライド。
 - 忘れずに言っておきたいこと３つ
   - モブプログラミングとは、協力して一つの問題を解決するために、1台のコンピューターの前に数人が集まって共同作業することである
-    - モビングする人々の一日 https://www.youtube.com/watch?v=Ev7uus12HRY
+    - モビングする人々の一日 <https://www.youtube.com/watch?v=Ev7uus12HRY>
   - モビングを効果的なものにするためには、モブの一人ひとりのメンバーがフロー効率重視の考え方を確立していく必要がある。それは、課題の完成に向かって歩みが滞らないように、チームの一員として協力しあっていくという考え方である。
     - ※フロー重視、リソース重視を説明しないといけない
   - フロー重視の考え方を確立するために必要なスキルを身につけるためには練習が必要だが、決して不可能なことではない。世界中のチームがこれを成功させている
-    - https://markpearlcoza.github.io/Talk_PeopleMobbing/
+    - <https://markpearlcoza.github.io/Talk_PeopleMobbing/>
 - モビングする人々の一日の動画を見たら、「タイピスト」と「その他のモブ」の役割分担を説明する
 - タイピスト
   - なるのは一人だけ
@@ -119,7 +119,7 @@
 
 ### モビングインターバル
 - モビングセッション（2時間）＝モビングインターバル（10分）×人数
-- モビングインターバルのメカニズム https://www.youtube.com/watch?v=DRo6wWuQY2Q
+- モビングインターバルのメカニズム <https://www.youtube.com/watch?v=DRo6wWuQY2Q>
 - まずどこから始めるか
   - トップダウン方式かボトムアップ方式か
   - TDD的にまずどういうテストを書いたら良いか
@@ -182,11 +182,11 @@
 
 ### 個性タイプについてのグループセッション
 - 無料
-  - www.truity.com/test/big-five-personality-test
-  - www.123test.com/big-five-personality-theory
-  - www.viacharacter.org/www/
+  - <http://www.truity.com/test/big-five-personality-test>
+  - <http://www.123test.com/big-five-personality-theory>
+  - <http://www.viacharacter.org/www/>
 - 有料
-  - www.gallupstrengthscenter.com
+  - <http://www.gallupstrengthscenter.com>
 
 ### 次は？
 
@@ -210,7 +210,7 @@
   - 進行役はホワイトボードにアイディアを書き出す。どのアイディアを試すかはモブが決める
 
 ### 些末な仕事のモビング
-- github.com/willemlarsen/mobprogrammingrpg
+- <http://github.com/willemlarsen/mobprogrammingrpg>
   - 見たけどよくわからなかった
   -
 
@@ -229,7 +229,7 @@
 
 ### 典型的なモビングレイアウト
 
-- 画面サイズから、テーブルと画面の距離を計算するツール www.rtings.com/tv/reviews/by-size/size-to-distance-relationship
+- 画面サイズから、テーブルと画面の距離を計算するツール <http://www.rtings.com/tv/reviews/by-size/size-to-distance-relationship>
   - 32インチで1.37m, 40インチで1.71m, 50インチで2.13m
 
 ### 必要な設備装置
@@ -290,5 +290,5 @@
 
 
 ## メモ
-- 「モブプログラミング・ベストプラクティス」読んだのでモブプロの魅力と始め方をまとめる https://aloerina01.github.io/blog/2019-03-12-1
+- 「モブプログラミング・ベストプラクティス」読んだのでモブプロの魅力と始め方をまとめる <https://aloerina01.github.io/blog/2019-03-12-1>
 - A day of Mob Programming 2016 - YouTube : <https://www.youtube.com/watch?v=dVqUcNKVbYg>
