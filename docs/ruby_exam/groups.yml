@@ -1,7 +1,0 @@
----
-- :group_name: 特殊変数
-  :question: 次の特殊変数の意味はどれ？
-  :reverse_question: 次の意味の特殊変数はどれ？
-  :options:
-  - :$_: 最後にgetsかreadlineで読み込んだ文字列
-  - :$&`: 最後にマッチした文字列

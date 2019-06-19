@@ -1,0 +1,25 @@
+---
+- id: f62bdf16-ae73-4d52-8630-5974e5673491
+  category: RubyExam/Silver/2.実行環境
+  question: "特殊変数で最後にgetsかreadlineで読み込んだ文字列はどれ？"
+  type: choice
+  options:
+    a: "$_"
+    b: "$!"
+    c: "$@"
+  answer: a
+  description: "補足説明"
+- id: cd6166e7-23d5-484a-beac-92c9277ce5b1
+  category: RubyExam/Silver/2.実行環境
+  question: "同じファイルを実行したときの、require と load の違いは？"
+  type: text
+  options: []
+  answer: requireは一度しか実行しないが、loadは実行された回数だけ実行
+  description: ''
+- id: 8db21d83-84da-4e0d-ae1a-1439884ebc4e
+  category: RubyExam/Silver/2.実行環境
+  question: "ファイルの拡張子を省略して実行したときの、require と load の違いは？"
+  type: text
+  options: []
+  answer: requireは拡張子を補完するが、loadは補完しない
+  description: ''

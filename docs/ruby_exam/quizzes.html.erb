@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>シンプルなクイズ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css.min.css"/>
+<style>
+summary {
+  display: block;
+  outline: none;
+}
+section{
+  border-radius: 1rem;
+  border: 2px solid #333;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+header, footer{
+  padding: 0
+}
+h1{
+  margin-top: 0;
+}
+p{
+  margin: 1rem 0;
+}
+</style>
+</head>
+<body>
+<header name="top" style="position: sticky;top: 0;"><a href=/ >top</a></header>
+<h1>クイズリスト</h1>
+<% quizzes.each do |quiz| %>
+<section>
+<%#= quiz["id"] %>
+  <p><%= quiz["question"] %></p>
+  <% if !quiz["options"].nil? && !quiz["options"].empty? %>
+  <ul>
+  <% quiz["options"].each do |k,v| %><li><%= k %>: <%= v %></li><% end %>
+  </ul>
+  <% end %>
+  <details>
+    <summary>答え</summary>
+    <p><%= quiz["answer"] %></p>
+    <% if !quiz["description"].nil? && !quiz["description"].empty? %><p>補足：<%= quiz["description"] %></p><% end %>
+  </details>
+</section>
+<% end %>
+
+<footer style="position: sticky;bottom: 0;"><a href=#top >go to top</a></footer>
+</body>
+</html>
